@@ -1,0 +1,383 @@
+/*main image design*/
+.main{
+    height:500px;
+    width:100%;
+    background-size: cover;
+}
+/*text inside the main image*/
+.text {
+    color: #000080;
+    font-size: 40px;
+    position: absolute;
+    height:55px;
+    background-color: #f2f2f2;
+    margin-top: 60px;
+    width: 450px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 3px;
+  }
+.row0{
+    position:relative;
+    width:100%;
+    height:80px;
+}
+.column0{
+    float:left;
+    width:70%;
+    height:60px;
+}
+.column01{
+    float:left;
+    width:30%;
+    height:60px;
+}
+/*topic styles*/
+h2{
+  color: #000080;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 700;  
+}
+.row{
+    position:relative;
+    width:100%;
+    height:800px;
+}
+/*devide intp two sections*/
+.column1{
+    float:left;
+    width:70%;
+    height:800px;
+}
+/*devide intp two sections*/
+.column2{
+    float:left;
+    width:30%;
+    height:1480px;
+
+}
+/*define life insurence*/
+.details1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+/*Insurence catagory*/
+.col1{
+	position:relative;
+    float:left;
+	width:28%;
+	height:300px;
+	background-color:#F2F3F4;
+	margin:24px;
+	justify-content:space-between;
+	opacity:0;
+	transform:scale(0.1);
+	transition: all 1s ease-in-out;
+	
+}
+.active{
+	opacity:1;
+	transform:scale(1);
+}
+/*Insurence catagory*/
+.col2{
+	position:relative;
+	float:left;
+	width:28%;
+	height:300px;
+	background-color:#F2F3F4;
+	margin:24px;
+	justify-content:space-between;
+	opacity:0;
+	transform:scale(0.1);
+	transition: all 1s ease-in-out;
+	
+}
+.active{
+	opacity:1;
+	transform:scale(1);
+}
+/*Insurence catagory*/
+.col3{
+	position:relative;
+	float:left;
+	width:28%;
+	height:300px;
+	background-color:#F2F3F4;
+	margin:24px;
+	justify-content:space-between;
+	opacity:0;
+	transform:scale(0.1);
+	transition: all 1s ease-in-out;
+	
+}
+.active{
+	opacity:1;
+	transform:scale(1);
+}
+/*Insurence catagory*/
+.col4{
+	position:relative;
+	float:left;
+	width:28%;
+	height:300px;
+	background-color:#F2F3F4;
+	margin:24px;
+	justify-content:space-between;
+	opacity:0;
+	transform:scale(0.1);
+	transition: all 1s ease-in-out;
+	
+}
+.active{
+	opacity:1;
+	transform:scale(1);
+}
+/*Insurence catagory*/
+.col5{
+	position:relative;
+	float:left;
+	width:28%;
+	height:300px;
+	background-color:#F2F3F4;
+	margin:24px;
+	justify-content:space-between;
+	opacity:0;
+	transform:scale(0.1);
+	transition: all 1s ease-in-out;
+	
+}
+.active{
+	opacity:1;
+	transform:scale(1);
+}
+/*Insurence catagory*/
+.col6{
+	position:relative;
+	float:left;
+	width:28%;
+	height:300px;
+	background-color:#F2F3F4;
+	margin:24px;
+	justify-content:space-between;
+	opacity:0;
+	transform:scale(0.1);
+	transition: all 1s ease-in-out;
+	
+}
+.active{
+	opacity:1;
+	transform:scale(1);
+}
+/*understanding life insurense part's text*/
+h3{
+    color: #000080;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;  
+}
+  .details{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+    padding-left: 10px;
+    transition: transform .2s;
+}
+/*mouse hover the understanding life insurence part*/
+.details:hover{
+    transform: scale(1.1);
+}
+/*insurence catagory image*/
+.logo{
+	width:170px;
+	height:170px;
+	padding-top: 30px;
+	padding-left: 22%;
+}
+.cgrName{
+	font-family: 'Times New Roman', Times, serif;
+	color:black;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 20px;
+}
+.overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000080;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+}
+  
+.col1:hover .overlay{
+	height: 100%;
+}
+.col2:hover .overlay{
+	height: 100%;
+}
+.col3:hover .overlay{
+	height: 100%;
+}
+.col4:hover .overlay{
+	height: 100%;
+}
+.col5:hover .overlay{
+	height: 100%;
+}
+.col6:hover .overlay{
+	height: 100%;
+}
+/*catagory mouse hover text*/
+.text1{
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	overflow: hidden;
+	padding: 20px;
+	display: block;
+	
+}
+/*Read more div*/
+.button{
+	position: absolute;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	height:43px;
+	width:100%;
+	margin-top: 230px;
+}
+a{
+	text-decoration: none;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 30px;
+	padding-left: 22%;
+	font-weight: 600;
+}
+.whySelect {
+	position:relative;
+	height:260px;
+	background-color:#732f19;
+	margin:24px;
+	justify-content:space-between;
+	transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.whySelect.active{
+	transform: translateX(0%);
+    opacity: 1;
+}
+li{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	color:white;
+	
+}
+.left{
+	position:relative;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.left.active{
+	transform: translateY(0%);
+    opacity: 1;
+}
+.left2{
+	position:relative;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.left2.active{
+	transform: translateY(0%);
+    opacity: 1;
+}
+.left3{
+	position:relative;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.left3.active{
+	transform: translateY(0%);
+    opacity: 1;
+}
+.left4{
+	position:relative;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.left4.active{
+	transform: translateY(0%);
+    opacity: 1;
+}
+.left5{
+	position:relative;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.left5.active{
+	transform: translateY(0%);
+    opacity: 1;
+}
+.left6{
+	position:relative;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.left6.active{
+	transform: translateY(0%);
+    opacity: 1;
+}
+.left7{
+	position:relative;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.left7.active{
+	transform: translateY(0%);
+    opacity: 1;
+}
+.left8{
+	position:relative;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.left8.active{
+	transform: translateY(0%);
+    opacity: 1;
+}
+.left9{
+	position:relative;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.left9.active{
+	transform: translateY(0%);
+    opacity: 1;
+}

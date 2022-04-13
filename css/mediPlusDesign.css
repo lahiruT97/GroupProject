@@ -1,0 +1,302 @@
+/*main image design*/
+.main{
+    height:500px;
+    width:100%;
+    background-image: url(mediplus.jpeg);
+    background-size: 100% 140%;
+}
+/*text inside the main image*/
+.text {
+    color: #000080;
+    font-size: 40px;
+    position: absolute;
+    height:55px;
+    background-color: #f2f2f2;
+    margin-top: 60px;
+    width: 450px;
+    text-align: center;
+    font-weight: 800;
+}
+.row{
+    width:100%;
+    height:120px;
+}
+.topic{
+    float:left;
+    width:42%;
+}
+.slogon{
+    position:relative;
+    float:left;
+    margin-left: 49%;
+    margin-top: -122px;
+    padding: 30px;
+    background-color: #000080;
+    width:700px;
+    height:90px;
+    display: block;
+    justify-content:space-between;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.slogon.active{
+	transform: translateY(0%);
+    opacity: 1;
+}
+
+.sloganText{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    margin-top: -1px;
+}
+
+/*topic styles*/
+h2{
+    color: #000080;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;  
+}
+/*define life insurence*/
+.details{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+/*Benifits divition*/
+.benefits{
+    position: relative;
+    width:100%;
+    height:1000px;
+    background-color: #f2f2f2;
+    
+}
+/*element of Benifits divition*/
+.column1{
+    float:left;
+    position: relative;
+    width:28%;
+    height: 270px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    justify-content:space-between;
+	transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.column1.active{
+	transform: translateX(0%);
+    opacity: 1;
+}
+.column2{
+    float:left;
+    position: relative;
+    width:28%;
+    height: 270px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    justify-content:space-between;
+	transform: translateX(-200%);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.column2.active{
+	transform: translateX(0%);
+    opacity: 1;
+}
+.column3{
+    float:left;
+    position: relative;
+    width:28%;
+    height: 270px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    justify-content:space-between;
+	transform: translateX(-300%);
+    opacity: 0;
+    transition: transform 1s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.column3.active{
+	transform: translateX(0%);
+    opacity: 1;
+}
+.column4{
+    float:left;
+    position: relative;
+    width:28%;
+    height: 270px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    justify-content:space-between;
+	transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.column4.active{
+	transform: translateX(0%);
+    opacity: 1;
+}
+.column5{
+    float:left;
+    position: relative;
+    width:28%;
+    height: 270px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    justify-content:space-between;
+	transform: translateX(-200%);
+    opacity: 0;
+    transition: transform 0.8s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.column5.active{
+	transform: translateX(0%);
+    opacity: 1;
+}
+.column6{
+    float:left;
+    position: relative;
+    width:28%;
+    height: 270px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    justify-content:space-between;
+	transform: translateX(-300%);
+    opacity: 0;
+    transition: transform 1s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.column6.active{
+	transform: translateX(0%);
+    opacity: 1;
+}
+.column7{
+    float:left;
+    position: relative;
+    width:90%;
+    height: 270px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    justify-content:space-between;
+	transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+.column7.active{
+	transform: translateX(0%);
+    opacity: 1;
+}
+/*benefits catagory topic*/
+h3{
+    color: #000080;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;  
+}
+.text2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+/*form divition*/
+.row2{
+    position: relative;
+    width:100%;
+    height:500px;
+}
+.col1{
+    float:left;
+    width:48%;
+    height:400px;
+}
+.col2{
+    float:left;
+    height:400px;
+    width:45%;
+}
+/*animation from Y axis*/
+.row2Topic{
+    position:relative;
+    padding: 30px;
+    display: block;
+    justify-content:space-between;
+	transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+/*animation starting time*/
+.row2Topic.active{
+	transform: translateY(0%);
+    opacity: 1;
+}
+/*animation from X axis*/
+.row2Details{
+    position:relative;
+    padding: 20px;
+    margin-top: -40px;
+    display: block;
+    justify-content:space-between;
+	transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+/*animation starting time*/
+.row2Details.active{
+	transform: translateX(0%);
+    opacity: 1;
+}
+input[type=text]{
+    width: 95%;
+    height:40px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+input[type=mail]{
+    width: 95%;
+    height:40px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+textarea{
+
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+input[type=submit]{
+
+    width: 80px;;
+    height:40px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.apply{
+    position: relative;
+    width:200px;
+    height:60px;
+    background-color: #000080;
+    margin-left: 440px;
+    margin-top: -65px;
+    text-align: center;
+}
