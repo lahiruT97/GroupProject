@@ -1,10 +1,44 @@
 <html>
 <head>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Illuminating_Insurance</title>
+  <meta charset="utf-8" />
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Priva - Insurance Company Website Template" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="" name="author" />
+
+ 
+
+   
+    <link href="css/jpreloader.css" rel="stylesheet" type="text/css">
+    <link id="bootstrap" href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-grid" href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-reboot" href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+
+  
+    <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
+    <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
+    <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
     <link rel="stylesheet" href="css/AboutDesign.css">
+	
     
 </head>
-
+<?php include 'includes/header.php' ?>
 <body onload="InitMap();">
+  
   <div id="sideNav">
     <a href="#WhoAreWe" id="about1">Who are we</a>
     <a href="#vission" id="about2">Our vission</a>
@@ -17,37 +51,37 @@
 
         <div class="mySlides fade">
           <div class="numbertext">1 / 6</div>
-          <img src="image/about1.jpg" width="1500px" height="500px">
+          <img src="image/about1.jpg" width="100%" height="500px">
           <div class="text">Do You feel Lost</div>
         </div>
         
         <div class="mySlides fade">
           <div class="numbertext">2 / 6</div>
-          <img src="image/about2.jpg" width="1500px" height="500px">
+          <img src="image/about2.jpg" width="100%" height="500px">
           <div class="text">Did everythings happened unexpetedly</div>
         </div>
         
         <div class="mySlides fade">
           <div class="numbertext">3 / 6</div>
-          <img src="image/about3.jpg" width="1500px" height="500px">
+          <img src="image/about3.jpg" width="100%" height="500px">
           <div class="text">Here we stand with you</div>
         </div>
         
         <div class="mySlides fade">
             <div class="numbertext">4 / 6</div>
-            <img src="image/about4.jpg" width="1500px" height="500px"">
+            <img src="image/about4.jpg" width="100%" height="500px"">
             <div class="text">For whatever situations</div>
         </div>
         
         <div class="mySlides fade">
             <div class="numbertext">5 / 6</div>
-            <img src="image/about5.jpg" width="1500px" height="500px">
+            <img src="image/about5.jpg" width="100%" height="500px">
             <div class="text">We make your future</div>
         </div>
 
         <div class="mySlides fade">
             <div class="numbertext">6 / 6</div>
-            <img src="image/about6.jpg" width="1500px" height="500px">
+            <img src="image/about6.jpg" width="100%" height="500px">
             <div class="text">As long as you lives</div>
         </div>
 
@@ -226,9 +260,9 @@
       </div>
       
       <h3 id="location" style="padding-left: 30px;">Our locations</h3>
-      <div id="gMap" style="width: 96%;height: 600px;"></div>
+      <div id="gMap" style="width: 100%;height: 600px;"></div>
       <div class="row2">
-        <h3>Join Our Family</h3>
+        <h3 id="joinUs">Join Our Family</h3>
 
         <div>
           <object
@@ -248,6 +282,11 @@
           </object>
         </div>
       </div>
+      <a href="#" id="back-to-top"></a><br>
+
+            <div class="footer">
+            <?php include 'includes/footer.php' ?>
+            </div>
         <script>
             var slideIndex = 0;
         showSlides();
@@ -306,6 +345,22 @@
         }
         </script>  
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2FGkrI3t9SWZrJx_6VS2ZKVZmYGay3hc&callback=MyMap"></script>     
-
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jpreLoader.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/easing.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/enquire.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/jquery.plugin.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/jquery.countTo.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/designesia.js"></script>
 </body>
 </html>
