@@ -12,12 +12,12 @@
     position: absolute;
     height:55px;
     background-color: #f2f2f2;
-    margin-top: 60px;
+    margin-top: 120px;
     width: 450px;
     text-align: center;
     font-weight: 800;
 }
-.row{
+.rowo{
     width:100%;
     height:120px;
 }
@@ -32,8 +32,8 @@
     margin-top: -122px;
     padding: 30px;
     background-color: #000080;
-    width:700px;
-    height:90px;
+    width:780px;
+    height:130px;
     display: block;
     justify-content:space-between;
 	transform: translateY(-100%);
@@ -80,7 +80,7 @@ h2{
     float:left;
     position: relative;
     width:28%;
-    height: 270px;
+    height: 300px;
     padding: 20px;
     margin: 20px;
     display: block;
@@ -98,7 +98,7 @@ h2{
     float:left;
     position: relative;
     width:28%;
-    height: 270px;
+    height: 300px;
     padding: 20px;
     margin: 20px;
     display: block;
@@ -116,7 +116,7 @@ h2{
     float:left;
     position: relative;
     width:28%;
-    height: 270px;
+    height: 300px;
     padding: 20px;
     margin: 20px;
     display: block;
@@ -134,7 +134,7 @@ h2{
     float:left;
     position: relative;
     width:28%;
-    height: 270px;
+    height: 300px;
     padding: 20px;
     margin: 20px;
     display: block;
@@ -152,7 +152,7 @@ h2{
     float:left;
     position: relative;
     width:28%;
-    height: 270px;
+    height: 300px;
     padding: 20px;
     margin: 20px;
     display: block;
@@ -170,7 +170,7 @@ h2{
     float:left;
     position: relative;
     width:28%;
-    height: 270px;
+    height: 300px;
     padding: 20px;
     margin: 20px;
     display: block;
@@ -188,7 +188,7 @@ h2{
     float:left;
     position: relative;
     width:90%;
-    height: 270px;
+    height: 300px;
     padding: 20px;
     margin: 20px;
     display: block;
@@ -228,7 +228,7 @@ h3{
 .col2{
     float:left;
     height:400px;
-    width:45%;
+    width:46%;
 }
 /*animation from Y axis*/
 .row2Topic{
@@ -264,14 +264,14 @@ h3{
     opacity: 1;
 }
 input[type=text]{
-    width: 95%;
+    width: 100%;
     height:40px;
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-input[type=mail]{
-    width: 95%;
+input[type=email]{
+    width: 100%;
     height:40px;
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
@@ -296,7 +296,7 @@ input[type=submit]{
     width:200px;
     height:60px;
     background-color: #000080;
-    margin-left: 440px;
+    margin-left: 75%;
     margin-top: -65px;
     text-align: center;
 }
