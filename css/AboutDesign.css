@@ -17,29 +17,29 @@
 }
 /*navigate to Who are we*/
 #about1{
-  top: 50px;
+  top: 120px;
   background-color: darkred;
 }
 /*navigate to Our vission*/
 #about2{
-  top: 120px;
+  top: 190px;
   background-color: darkred;
 }
 /*navigate to Our mission*/
 #about3{
-  top: 190px;
-  background-color: darkred;
-}
-#about4{
   top: 260px;
   background-color: darkred;
 }
-#about5{
+#about4{
   top: 330px;
   background-color: darkred;
 }
-#about6{
+#about5{
   top: 400px;
+  background-color: darkred;
+}
+#about6{
+  top: 470px;
   background-color: darkred;
 }
 * {box-sizing: border-box;}
