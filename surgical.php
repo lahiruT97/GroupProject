@@ -1,5 +1,37 @@
 <html>
     <head>
+
+    <meta charset="utf-8" />
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Priva - Insurance Company Website Template" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="" name="author" />
+
+ 
+
+   
+    <link href="css/jpreloader.css" rel="stylesheet" type="text/css">
+    <link id="bootstrap" href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-grid" href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+    <link id="bootstrap-reboot" href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+
+  
+    <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
+    <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
+    <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
+
         <link rel="stylesheet" href="css/mediPlusDesign.css">
         <script>
             function validationMail(){
@@ -21,21 +53,18 @@
                     alert("Message must be less than 100 letters");
                     return false;
                 }
-                else if(cmd="Message*"){
-                    alert("Please add your message");
-                    return false;
-                }
 		        return true;
             }
         </script>
     </head>
     <body>
+    <?php include 'includes/header.php' ?>
         <div class="main" style="background-image: url(surgery1.jpg);">
             <div class="text">
                 Surgical Plan
             </div>
         </div>
-    <div class="row">
+    <div class="rowo">
         <div class="topic"><br><br>
             <h2>What is Surgical plan?</h2>
         </div>
@@ -122,18 +151,41 @@
         </div>
         <div class="col2" style="margin-left:40px;">
             <h2 style="margin-top: -35px; margin-left: 30px;">Quick Inquiry</h2>
-            <form name="myform" action="insert.php" method="post" onsubmit="validation()"><br>
+            <form name="myform" action="insert_inquiry.php" method="post" onsubmit="validation()"><br>
                 <input type="text" name="cat_name" value="Surgical Plan" readonly><br><br>
-                <input type="mail" name="mail" value="E-mail*" onkeypress="validationMail()"><br><br>
+                <input type="email" name="mail" placeholder="E-mail" onkeypress="validationMail()" required><br><br>
                 <span id="lblError" style="color: red"></span>
-                <textarea name="cmd" rows="6" cols="59" >Message*</textarea><br><br>
+                <textarea name="cmd" rows="6" cols="64" placeholder="Message*" required></textarea><br><br>
                 <input type="submit" name="submit">
             </form>
             <div class="apply">
-                <a href=""><h2 style="color: white;">Apply now...</h2></a>
+                <a href="ApplyNewPolicy039.php"><h2 style="color: white;">Apply now...</h2></a>
             </div>
         </div>
-    <div>
+        </div>
+    <a href="#" id="back-to-top"></a>
+
+    <div class="footer">
+        <?php include 'includes/footer.php' ?>
+    </div>
         <script src="script/mediPlusScript.js"></script>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jpreLoader.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/easing.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/enquire.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/jquery.plugin.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/jquery.countTo.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/designesia.js"></script>
     </body>
 </html>
